@@ -42,7 +42,7 @@ const homeScreen = () => {
                 </Box>
             </Fade>
             <Fade bottom duration={400}>
-                <Box style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '-30px 0px' }}>
+                <Box style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '-10px 0px' }}>
                     <Lottie
                         options={defaultOptions4}
                         height={300}
@@ -60,49 +60,49 @@ const homeScreen = () => {
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Culrural Heritage</h5>
-                            <img src={heritage} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={heritage} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body">loading="lazy"
                             <h5 style={{ marginBottom: '50px' }}>Instrumental Music & Band</h5>
-                            <img src={music} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={music} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Singing (Solo & Group)</h5>
-                            <img src={singing} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={singing} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Painting on a Topic </h5>
-                            <img src={painting} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={painting} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Take a Picture </h5>
-                            <img src={picture} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={picture} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Variety Show</h5>
-                            <img src={variety} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={variety} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Fashion Parade </h5>
-                            <img src={fashion} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={fashion} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Dance (Solo & Group)</h5>
-                            <img src={dance} alt='image' style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
+                            <img src={dance} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
                     </div>
                 </Grid>
