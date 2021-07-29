@@ -64,7 +64,7 @@ const homeScreen = () => {
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-body">loading="lazy"
+                        <div class="card-body">
                             <h5 style={{ marginBottom: '50px' }}>Instrumental Music & Band</h5>
                             <img src={music} alt='image' loading="lazy" style={{ objectFit: 'cover', width: '300px', height: '450px', boxShadow: '0 0 25px -10px white' }} />
                         </div>
